@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Outfit";
+}
+
+body {
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 20rem;
+  height: 38rem;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 1.5rem;
+}
+
+.imghero {
+  width: 20rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.text {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1rem 1.7rem;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.1rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.2rem;
+  height: 5rem;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  background-color: hsl(225, 100%, 98%);
+}
+
+h2 {
+  font-size: 0.99rem;
+  margin: 0.2rem;
+  color: hsl(223, 47%, 23%);
+}
+.plan1 p {
+  margin: 0.2rem;
+}
+
+.Change {
+  color: hsl(245, 75%, 52%);
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.Butons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.payment {
+  width: 17.5rem;
+  border-radius: 0.8rem;
+  border: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 1rem;
+  padding: 1rem 3rem;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+
+.Change:hover {
+  opacity: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.payment:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+@media (min-width: 376px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+  }
+
+  .container {
+    width: 23rem;
+    height: 39rem;
+  }
+
+  .imghero {
+    width: 23rem;
+  }
+}
+
+/*
+ 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+
+*/
